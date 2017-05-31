@@ -219,8 +219,8 @@
 
       adaptSize () {
         if (this.adaptive) {
-          this.modal.width = inRange(0, this.window.width, this.modal.width)
-          this.modal.height = inRange(0, this.window.height, this.modal.height)
+          this.modal.width = inRange(0, this.window.width * 0.9, this.modal.width)
+          this.modal.height = inRange(0, this.window.height * 0.9, this.modal.height)
         }
       },
 
